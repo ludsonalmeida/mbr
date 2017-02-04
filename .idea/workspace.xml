@@ -67,7 +67,7 @@
       <file leaf-file-name="Table.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/LA/Model/Table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3644068">
+            <state vertical-scroll-proportion="0.36595744">
               <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
               <folding>
                 <marker date="1486198055208" expanded="true" signature="219:233" placeholder="select * fro..." />
@@ -603,7 +603,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/LA/Model/Table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3644068">
+        <state vertical-scroll-proportion="0.36595744">
           <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding>
             <marker date="1486198055208" expanded="true" signature="219:233" placeholder="select * fro..." />
