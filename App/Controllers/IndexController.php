@@ -12,17 +12,13 @@ class IndexController extends Action
 
     public function index()
     {
-        //$cliente = Container::getModel("Clientes");
 
-        /*$dados = ['id'=> '1','nome'=>'truta','email'=>'truta@icck.com'];
+        $dados = ['id'=> '1','nome'=>'trusta','email'=>'truta@icck.com'];
 
-        $update = Container::getCrud("update");
+        $update = Container::getCrud("create");
 
-        $update->update("clientes", $dados, "WHERE id = :id","id=0");*/
+        $update->create("clientes", $dados);
 
-        $del = Container::getCrud("delete");
-
-        $del->delete("clientes","WHERE id =:id", "id=0");
 
         $this->render("index", true);
     }
