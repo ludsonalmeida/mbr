@@ -4,23 +4,25 @@ namespace App\Controllers;
 
 
 use LA\Controllers\Action;
+use App\Helpers\Mailer;
 use LA\DI\Container;
 
 
 class IndexController extends Action
 {
 
+
     public function index()
     {
 
-        $dados = ['id'=> '1','nome'=>'trusta','email'=>'truta@icck.com'];
+        $this->render("index", false, true, true);
 
-        $update = Container::getCrud("create");
+        //RENDER('view',se layout, header, footer);
 
-        $update->create("clientes", $dados);
+    }
 
-
-        $this->render("index", true);
+    public function error(){
+        $this->render("error", false, true, true);
     }
 
 }

@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Diggin\\Http\\Charset' => array($vendorDir . '/diggin/diggin-http-charset/src'),
 );

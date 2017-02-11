@@ -1,6 +1,230 @@
-<hr>
+<?php echo utf8_encode('
+<!-- Home -->
+<section id="home" class="home-default">
 
-<?php
+    <div class="owl-slideshow bg-carousel home-full-carousel" data-auto-play="10500">
+        <div class="bg-image bg-image-1"></div>
+        <div class="bg-image bg-image-2"></div>
+    </div>
+    <div class="overlay overlay-black editable-alpha" data-alpha="70"></div>
+    <div class="container dark vertical-center">
+        <div class="row">
+            <div class="col-md-6 col-lg-5 vertical-center">
+                <div class="owl-carousel margin-bottom-20 animated" data-animation="zoomIn" data-single-item="true" data-auto-play="7500" data-pagination="true">
+                    <div>
+                        <span class="sep sep-primary"></span>
+                        <h4 class="text-uppercase">Quero aprender <strong>Lógica de Programação</strong></h4>
+                        <a href="#" class="btn btn-primary">Eu quero Lógica!</a><a href="#" class="btn btn-link">Saiba Mais</a>
+                    </div>
+                    <div>
+                        <span class="sep sep-primary"></span>
+                        <h4 class="text-uppercase"><strong>PHP</strong> para quem não sabe <strong>NADA</strong> e até para os mais <strong>experientes</strong>.</h4>
+                        <a href="#" class="btn btn-primary">Eu quero PHP!</a><a href="#" class="btn btn-link">Saiba Mais</a>
+                    </div>
+                    <div>
+                        <span class="sep sep-primary"></span>
+                        <h4 class="text-uppercase">Aplicativos <strong>Android?</strong> Eu quero  <strong>aprender</strong> agora! </h4>
+                        <a href="#" class="btn btn-primary">Eu quero Android!</a><a href="#" class="btn btn-link">Saiba Mais</a>
+                    </div>
+                    <div>
+                        <span class="sep sep-primary"></span>
+                        <h4 class="text-uppercase">Desenvolvimento <strong>JAVA</strong> é o que procuro <strong>Java Naguila Java!</strong></h4>
+                        <a href="#" class="btn btn-primary">Eu quero Java!</a><a href="#" class="btn btn-link">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-5 col-lg-offset-2 vertical-center">
+                <div class="sign-in-box dark animated" data-animation="flipInX">
+                    <div class="sign-in-head bg-black-transparent">
+                        <span class="pull-left icon icon-lg margin-bottom-5"><i class="fa fa-download text-primary"></i></span>
+                        <div class="left-space-lg">
+                            <h5 class="text-uppercase margin-bottom-0"><strong>Baixe nosso ebook</strong> e tenha acesso a vídeos exclusivos!</h5>
+                            <p class="lead text-muted font-alt margin-bottom-0">Programação de um jeito que <b>você nunca viu antes</b>, conteúdos gratuitos que vão te destacar e acelerar seu aprendizado até <b>10x mais!</b></p>
+                        </div>
+                    </div>
+                    <div class="sign-in-content bg-primary">
+                        <form id="sign-in-form" method="post" action="/">
+                            <div class="form-group form-group-lg margin-bottom-0">
+                                <input type="text" id="emailSigned" name="emailSigned" class="form-control bg-white margin-bottom-5" placeholder="Deixe aqui seu melhor e-mail!">
+                            </div>
+                            <div class="form-bottom-bar clearfix">
+                                <span class="checkbox-group pull-left"><input id="acceptRules" name="acceptRules" type="checkbox" /><label for="acceptRules" class="checkbox-label">Concordo com os <a href="#" data-toggle="modal" data-target="#rulesModal">termos</a>.</label></span>
+                                <button type="submit" name="ebook" class="btn btn-filled btn-primary-dark pull-right"><i class="icon-before fa fa-plus"></i>Baixar agora!</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-?>
+</section>
+<!-- Home / End -->
+
+<!-- Content -->
+<div id="content">
+
+    <!-- Section -->
+    <section class="section padded-vertical-70 container">
+        <div class="row">
+            <div class="col-lg-10">
+                <div class="section-title margin-bottom-40">
+                    <h4 class="text-uppercase margin-bottom-0">A <strong>Fábrica de Desenvolvedores</strong></h4>
+                    <span class="sep sep-primary sep-animated"></span>
+                    <p class="lead font-alt">A missão é dismistificar a barreira que separa a difculdade da compreensão, ter acesso rápido ao que foi aprendido sem a necessidade de revisões exaustivas por re-trabalhos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Icon Box -->
+            <div class="col-md-3 col-sm-6 icon-box icon-box-hover">
+                <span class="icon icon-sm icon-circle icon-primary margin-bottom-20 animated" data-animation="bounceIn" data-animation-delay="400"><i class="fa fa-book"></i></span>
+                <h5 class="margin-bottom-0">Premium <strong>E-books</strong></h5>
+                <p class="text-muted">Estaremos disponibilizando e-books de primeiríssima para acelerar seu rendimento e alavancar sua carreira no mercado.</p>
+                <a href="#" class="underline-link text-uppercase text-primary">Saiba Mais</a>
+            </div>
+            <!-- Icon Box -->
+            <div class="col-md-3 col-sm-6 icon-box icon-box-hover">
+                <span class="icon icon-sm icon-circle icon-primary margin-bottom-20 animated" data-animation="bounceIn" data-animation-delay="600"><i class="fa fa-video-camera"></i></span>
+                <h5 class="margin-bottom-0"><strong>Aulas</strong> Exclusivas</h5>
+                <p class="text-muted">Receba aulas e dicas de um jeito que você nunca viu antes, programar nunca foi tão fácil!</p>
+                <a href="#" class="underline-link text-uppercase text-primary">Saiba Mais</a>
+            </div>
+            <!-- Icon Box -->
+            <div class="col-md-3 col-sm-6 icon-box icon-box-hover">
+                <span class="icon icon-sm icon-circle icon-primary margin-bottom-20 animated" data-animation="bounceIn" data-animation-delay="800"><i class="fa fa-camera"></i></span>
+                <h5 class="margin-bottom-0"><strong>Portifólio diferenciado</strong></h5>
+                <p class="text-muted">Juntos desenvolveremos projetos que o mercado vai #pirar! Diversidade de projetos para web em diferentes plataformas.</p>
+                <a href="#" class="underline-link text-uppercase text-primary">Saiba Mais</a>
+            </div>
+            <!-- Icon Box -->
+            <div class="col-md-3 col-sm-6 icon-box icon-box-hover">
+                <span class="icon icon-sm icon-circle icon-filled icon-primary margin-bottom-20 animated" data-animation="bounceIn" data-animation-delay="1000"><i class="fa fa-heart"></i></span>
+                <h5 class="margin-bottom-0">+<strong>Rede</strong> de desenvolvimento!</h5>
+                <p class="text-muted">Esteja interado nos grupos de desenvolvedores em fabricação e já lançados no mercado pela fábrica, #sóVamo?</p>
+                <a href="#" class="underline-link text-uppercase text-primary">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="section padded-vertical-70">
+        <div class="bg-image bg-image-4"></div>
+        <div class="overlay overlay-white editable-alpha" data-alpha="10"></div>
+        <div class="container">
+            <span class="pull-left icon icon-lg margin-bottom-0 animated" data-animation="bounceIn" data-animation-delay="400"><i class="fa fa-play-circle-o text-primary"></i></span>
+            <div class="left-space-lg animated" data-animation="fadeInRight" data-animation-delay="400">
+                <h4 class="text-uppercase margin-bottom-0"><strong>Tenha acesso</strong> a aulas exclusivas</h4>
+                <p class="lead text-muted font-alt">Cadastre-se e prepare-se para se tornar um fabricante de desenvolvimento!</p>
+                <a href="#" class="btn btn-primary btn-filled">Quero Acesso!</a><a href="#" class="btn btn-link">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section
+    <section class="section padded-vertical-70 container">
+        <div class="row">
+            <div class="col-lg-10">
+            	<div class="section-title margin-bottom-40">
+                    <h4 class="text-uppercase margin-bottom-5"><strong>Aulas</strong> gratuitas</h4>
+                    <span class="sep sep-primary sep-animated"></span>
+                    <p class="lead font-alt">Não são simplesmente conteúdos gratuitos, tenho certeza que você terá uma visão diferente do que é programação e do quão fácil é dominar a arte de solucionar problemas.</p>
+                </div>
+             </div>
+        </div>
+        <div class="row">
+        	<!-- Post  
+            <div class="post post-horizontal col-md-6 clearfix">
+                <div class="post-image-thumb animated" data-animation="fadeInLeft" data-animation-delay="400">
+                    <img src="images/blog/post01-thumb.jpg" alt="" />
+                </div>
+                <div class="post-content">
+                    <div class="post-labels">
+                        <a href="#" class="label label-primary animated" data-animation="flipInX" data-animation-delay="400">Webdesign</a>
+                        <a href="#" class="label label-primary animated" data-animation="flipInX" data-animation-delay="600">Webdevelopment</a>
+                    </div>
+                    <h5 class="post-title"><a href="#">Donec molestie in libero nec lobortis nec</a></h5>
+                    <div class="post-meta">
+                        <span><i class="fa fa-clock-o"></i><a href="#">24.05.2014</a></span>
+                        <span><i class="fa fa-comment"></i><a href="#">2 Comments</a></span>
+                    </div>
+                    <p class="font-alt">Sed volutpat purus non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida. </p>
+                    <a href="#" class="btn btn-primary btn-xs">Read more</a>
+                </div>
+            </div>
+            <!-- Post  
+            <div class="post post-horizontal col-md-6 clearfix">
+                <div class="post-image-thumb animated" data-animation="fadeInLeft" data-animation-delay="600">
+                    <img src="images/blog/post02-thumb.jpg" alt="" />
+                </div>
+                <div class="post-content">
+                    <div class="post-labels">
+                        <span class="label label-primary animated" data-animation="flipInX" data-animation-delay="400">E-marketing</span>
+                    </div>
+                    <h5 class="post-title"><a href="#">Donec molestie in libero nec lobortis nec</a></h5>
+                    <div class="post-meta">
+                        <span><i class="fa fa-clock-o"></i><a href="#">24.05.2014</a></span>
+                        <span><i class="fa fa-comment"></i><a href="#">2 Comments</a></span>
+                    </div>
+                    <p class="font-alt">Sed volutpat purus non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida. </p>
+                    <a href="#" class="btn btn-primary btn-xs">Read more</a>
+                </div>
+            </div>
+            <!-- Post  
+            <div class="post post-horizontal col-md-6 clearfix">
+                <div class="post-image-thumb animated" data-animation="fadeInLeft" data-animation-delay="800">
+                    <img src="images/blog/post03-thumb.jpg" alt="" />
+                </div>
+                <div class="post-content">
+                    <div class="post-labels">
+                        <span class="label label-primary animated" data-animation="flipInX" data-animation-delay="400">Webdesign</span>
+                    </div>
+                    <h5 class="post-title"><a href="#">Donec molestie in libero nec lobortis nec</a></h5>
+                    <div class="post-meta">
+                        <span><i class="fa fa-clock-o"></i><a href="#">24.05.2014</a></span>
+                        <span><i class="fa fa-comment"></i><a href="#">2 Comments</a></span>
+                    </div>
+                    <p class="font-alt">Sed volutpat purus non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida. </p>
+                    <a href="#" class="btn btn-primary btn-xs">Read more</a>
+                </div>
+            </div>
+            <!-- Post 
+            <div class="post post-horizontal col-md-6 clearfix">
+                <div class="post-image-thumb animated" data-animation="fadeInLeft" data-animation-delay="1000">
+                    <img src="images/blog/post04-thumb.jpg" alt="" />
+                </div>
+                <div class="post-content">
+                    <div class="post-labels">
+                        <span class="label label-primary animated" data-animation="flipInX" data-animation-delay="400">Social Media</span>
+                    </div>
+                    <h5 class="post-title"><a href="#">Donec molestie in libero nec lobortis nec</a></h5>
+                    <div class="post-meta">
+                        <span><i class="fa fa-clock-o"></i><a href="#">24.05.2014</a></span>
+                        <span><i class="fa fa-comment"></i><a href="#">2 Comments</a></span>
+                    </div>
+                    <p class="font-alt">Sed volutpat purus non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida. </p>
+                    <a href="#" class="btn btn-primary btn-xs">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section -->
+    <section class="section padded-vertical-70 dark">
+        <div class="bg-image parallax bg-image-3"></div>
+        <div class="overlay overlay-black editable-alpha" data-alpha="70"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Twitter -->
+                    <div class="tweet tweet-horizontal"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+<!-- Content / End -->
+
+<?php ');?>
 

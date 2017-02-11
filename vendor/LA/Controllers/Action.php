@@ -11,12 +11,18 @@ abstract class Action
         $this->view = new \stdClass();
     }
 
-    protected function render($action, $layout = true){
+    protected function render($action, $layout = true, $header = true, $footer = true){
         $this->action = $action;
-        if($layout == true && file_exists("../App/Views/layout.phtml")){
+        if($layout == true && file_exists("../App/Views/layout.phtml")) {
             include_once("../App/Views/layout.phtml");
+
+        }else if($header == true AND $footer == true AND file_exists("../App/Views/index/header.phtml") AND file_exists("../App/Views/index/footer.phtml")){
+
+            include_once("../App/Views/index/header.phtml");
+            utf8_encode($this->content());
+            include_once("../App/Views/index/footer.phtml");
         }else{
-            $this->content();
+            utf8_encode($this->content());
         }
     }
 

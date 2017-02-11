@@ -15,12 +15,20 @@ abstract class Bootstrap
     abstract protected function initRoutes();
 
     protected function run($url){
+        $this->initConfig();
         array_walk($this->routes, function($routes) use($url){
             if($url == $routes['route']){
                 $class = "App\\Controllers\\".ucfirst($routes['controller']);
                 $controller = new $class;
                 $action = $routes['action'];
                 $controller->$action();
+                exit();
+            }else if($url != $routes['route']){
+                $class = "App\\Controllers\\IndexController";
+                $controller = new $class;
+                $action = "error";
+                $controller->$action();
+                exit();
             }
         });
     }
@@ -31,5 +39,9 @@ abstract class Bootstrap
 
     protected function getUrl(){
         return parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    }
+
+    private function initConfig(){
+        require_once '../Config.php';
     }
 }
