@@ -2,20 +2,418 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="007bfae2-c67f-4486-a63b-54191e6f915b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/LA/Controllers/Action.php" afterPath="$PROJECT_DIR$/vendor/LA/Controllers/Action.php" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\composer\autoload_files.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\demos\Diggin\Http\Charset\SplClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\demos\Diggin\Http\Charset\detect.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\demos\Diggin\Http\Charset\file_get_contents.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\demos\Diggin\Http\Charset\wrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Converter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Converter\AbstractConverter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Converter\FixedfromConverter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Converter\HtmlConverter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Detector\HtmlDetector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Exception\DetectException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Exception\InvalidArgumentException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Front\DocumentConverter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Front\UrlRegex.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\WrapperFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Wrapper\PeclHttpMessageWrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Wrapper\Symfony2.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Wrapper\ZF2Wrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\src\Diggin\Http\Charset\Wrapper\ZF2Wrapper\HeaderContentType.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\tests\Diggin\Http\Charset\Converter\FixedfromConverterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\tests\Diggin\Http\Charset\Converter\HtmlConverterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\tests\Diggin\Http\Charset\Detector\HtmlDetectorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\tests\Diggin\Http\Charset\FilterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\tests\Diggin\Http\Charset\Front\UrlRegexTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\tests\Diggin\Http\Charset\WrapperFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\diggin\diggin-http-charset\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Assertion\AssertionRecorder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Assertion\AssertionRenderer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Assertion\ExceptionAssertionRecorder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Assertion\Exception\AssertionException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Arguments.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Call.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\CallData.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\CallFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\CallVerifier.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\CallVerifierFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\AbstractCallEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\CallEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\CallEventFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\CalledEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\ConsumedEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\EndEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\IterableEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\ProducedEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\ReceivedEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\ReceivedExceptionEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\ResponseEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\ReturnedEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\ThrewEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Event\UsedEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Exception\UndefinedArgumentException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Exception\UndefinedCallException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Call\Exception\UndefinedResponseException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Clock\Clock.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Clock\SystemClock.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Difference\DifferenceEngine.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Difference\DifferenceSequenceMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Event\AbstractEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Event\Event.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Event\EventCollection.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Event\EventOrderVerifier.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Event\EventSequence.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Event\Exception\UndefinedEventException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Exporter\Exporter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Exporter\InlineExporter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Facade\AbstractFacade.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Facade\FacadeDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Hook\Exception\FunctionExistsException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Hook\Exception\FunctionHookException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Hook\Exception\FunctionHookGenerationFailedException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Hook\Exception\FunctionSignatureMismatchException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Hook\FunctionHookGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Hook\FunctionHookManager.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Integration\CounterpartMatcherDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Integration\HamcrestMatcherDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Integration\MockeryMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Integration\MockeryMatcherDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Integration\PhakeMatcherDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Integration\ProphecyMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Integration\ProphecyMatcherDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Invocation\AbstractInvocable.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Invocation\AbstractWrappedInvocable.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Invocation\Invocable.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Invocation\InvocableInspector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Invocation\Invoker.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Invocation\WrappedInvocable.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Matcher\AnyMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Matcher\EqualToMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Matcher\Matchable.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Matcher\Matcher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Matcher\MatcherDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Matcher\MatcherFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Matcher\MatcherResult.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Matcher\MatcherVerifier.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Matcher\WildcardMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Matcher\WrappedMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Builder\Method\CustomMethodDefinition.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Builder\Method\MethodDefinition.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Builder\Method\MethodDefinitionCollection.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Builder\Method\RealMethodDefinition.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Builder\Method\TraitMethodDefinition.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Builder\MockBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Builder\MockBuilderFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Builder\MockDefinition.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\AnonymousClassException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\ClassExistsException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\FinalClassException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\FinalMethodStubException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\FinalizedMockException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\InvalidClassNameException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\InvalidDefinitionException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\InvalidMockClassException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\InvalidMockException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\InvalidTypeException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\MockException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\MockGenerationFailedException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\MultipleInheritanceException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\NonMockClassException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Exception\UndefinedMethodStubException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Handle\AbstractHandle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Handle\Handle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Handle\HandleFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Handle\InstanceHandle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Handle\StaticHandle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Method\AbstractWrappedMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Method\WrappedCustomMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Method\WrappedMagicMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Method\WrappedMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Method\WrappedParentMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Method\WrappedTraitMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Method\WrappedUncallableMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\Mock.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\MockFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Mock\MockGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Pho\PhoAssertionException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Pho\PhoAssertionRecorder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Pho\PhoFacadeDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Pho\Phony.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Pho\functions.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Phony.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Phpunit\Phony.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Phpunit\PhpunitAssertionException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Phpunit\PhpunitAssertionRecorder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Phpunit\PhpunitFacadeDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Phpunit\PhpunitMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Phpunit\PhpunitMatcherDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Phpunit\functions.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Reflection\Exception\UndefinedFeatureException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Reflection\FeatureDetector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Reflection\FunctionSignatureInspector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Reflection\HhvmFunctionSignatureInspector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Reflection\PhpFunctionSignatureInspector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Sequencer\Sequencer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Simpletest\Phony.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Simpletest\SimpletestAssertionRecorder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Simpletest\SimpletestFacadeDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Simpletest\SimpletestMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Simpletest\SimpletestMatcherDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Simpletest\functions.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\ArraySpy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\Detail\GeneratorSpyFactoryDetailHhvm.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\Detail\GeneratorSpyFactoryDetailHhvmWithReturn.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\Detail\GeneratorSpyFactoryDetailPhp.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\Detail\GeneratorSpyFactoryDetailPhpWithReturn.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\GeneratorSpyFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\IterableSpy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\IterableSpyFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\Spy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\SpyData.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\SpyFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\SpyVerifier.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\SpyVerifierFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Spy\TraversableSpy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\Answer\Answer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\Answer\Builder\Detail\GeneratorAnswerBuilderDetail.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\Answer\Builder\Detail\GeneratorAnswerBuilderDetailWithReturn.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\Answer\Builder\GeneratorAnswerBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\Answer\Builder\GeneratorAnswerBuilderFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\Answer\Builder\GeneratorYieldFromIteration.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\Answer\Builder\GeneratorYieldIteration.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\Answer\CallRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\EmptyValueFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\Exception\UndefinedAnswerException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\Exception\UnusedStubCriteriaException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\Stub.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\StubData.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\StubFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\StubRule.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\StubVerifier.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Stub\StubVerifierFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Verification\AbstractCardinalityVerifier.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Verification\AbstractCardinalityVerifierEventCollection.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Verification\Cardinality.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Verification\CardinalityVerifier.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Verification\Exception\InvalidCardinalityException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Verification\Exception\InvalidCardinalityStateException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Verification\Exception\InvalidSingularCardinalityException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Verification\GeneratorVerifier.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Verification\GeneratorVerifierFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Verification\IterableVerifier.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\Verification\IterableVerifierFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\eloquent\phony\src\functions.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\UPGRADING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Client.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\ClientInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Cookie\CookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Cookie\CookieJarInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Cookie\FileCookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Cookie\SessionCookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Cookie\SetCookie.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Exception\BadResponseException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Exception\ClientException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Exception\ConnectException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Exception\GuzzleException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Exception\SeekException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Exception\ServerException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Exception\TooManyRedirectsException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Exception\TransferException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\HandlerStack.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Handler\CurlFactoryInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Handler\CurlMultiHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Handler\EasyHandle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Handler\MockHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Handler\StreamHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\MessageFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Middleware.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\Pool.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\RequestOptions.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\RetryMiddleware.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\TransferStats.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\UriTemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\functions.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\guzzle\src\functions_include.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\AggregateException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\CancellationException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\Coroutine.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\EachPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\FulfilledPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\Promise.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\PromiseInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\PromisorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\RejectedPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\RejectionException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\TaskQueue.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\TaskQueueInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\functions.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\promises\src\functions_include.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\AppendStream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\BufferStream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\CachingStream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\DroppingStream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\FnStream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\InflateStream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\LazyOpenStream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\LimitStream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\MessageTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\MultipartStream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\NoSeekStream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\PumpStream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\Request.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\Response.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\ServerRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\Stream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\StreamDecoratorTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\StreamWrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\UploadedFile.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\Uri.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\functions.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\src\functions_include.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\AppendStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\BufferStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\CachingStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\DroppingStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\FnStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\FunctionsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\InflateStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\LazyOpenStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\LimitStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\MultipartStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\NoSeekStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\PumpStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\RequestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\ResponseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\ServerRequestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\StreamDecoratorTraitTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\StreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\StreamWrapperTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\UploadedFileTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\UriTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\guzzlehttp\psr7\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\CREDITS.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\README.PROVIDER-GUIDE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Grant\AbstractGrant.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Grant\AuthorizationCode.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Grant\ClientCredentials.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Grant\Exception\InvalidGrantException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Grant\GrantFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Grant\Password.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Grant\RefreshToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Provider\AbstractProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Provider\Exception\IdentityProviderException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Provider\GenericProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Provider\GenericResourceOwner.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Provider\ResourceOwnerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Token\AccessToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Tool\ArrayAccessorTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Tool\BearerAuthorizationTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Tool\MacAuthorizationTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Tool\QueryBuilderTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Tool\RequestFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-client\src\Tool\RequiredParameterTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-google\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-google\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-google\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-google\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-google\examples\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-google\examples\provider.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-google\examples\reset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-google\examples\server.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-google\examples\user.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-google\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-google\src\Provider\Google.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\league\oauth2-google\src\Provider\GoogleUser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\build-phar.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\dist\random_compat.phar.pubkey" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\dist\random_compat.phar.pubkey.asc" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\lib\byte_safe_strings.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\lib\cast_to_int.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\lib\error_polyfill.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\lib\random.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\lib\random_bytes_com_dotnet.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\lib\random_bytes_dev_urandom.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\lib\random_bytes_libsodium.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\lib\random_bytes_libsodium_legacy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\lib\random_bytes_mcrypt.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\lib\random_int.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\paragonie\random_compat\other\build_phar.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\psr\http-message\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\psr\http-message\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\psr\http-message\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\psr\http-message\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\psr\http-message\src\MessageInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\psr\http-message\src\RequestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\psr\http-message\src\ResponseInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\psr\http-message\src\ServerRequestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\psr\http-message\src\StreamInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\psr\http-message\src\UploadedFileInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\www\fadev\vendor\psr\http-message\src\UriInterface.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/LA/Init/Bootstrap.php" afterPath="$PROJECT_DIR$/vendor/LA/Init/Bootstrap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controllers/IndexController.php" afterPath="$PROJECT_DIR$/App/Controllers/IndexController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Route.php" afterPath="$PROJECT_DIR$/App/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/index/header.phtml" afterPath="$PROJECT_DIR$/App/Views/index/header.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/php/twitter/index.php" afterPath="$PROJECT_DIR$/public/assets/php/twitter/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/index/index.phtml" afterPath="$PROJECT_DIR$/App/Views/index/index.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/layout.phtml" afterPath="$PROJECT_DIR$/App/Views/layout.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/index/menu.phtml" afterPath="$PROJECT_DIR$/App/Views/index/menu.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/style.css" afterPath="$PROJECT_DIR$/public/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mvc.iws" />
@@ -38,33 +436,152 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Controllers/IndexController.php">
+      <file leaf-file-name="Bootstrap.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/LA/Init/Bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.193548">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#36#62#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8847826">
-              <caret line="342" column="11" selection-start-line="342" selection-start-column="11" selection-end-line="342" selection-end-column="11" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sign-in-form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/php/sign-in-form.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.4838705">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state vertical-scroll-proportion="-2.8387096">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/index/header.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="3.967742">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/index/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1486883040991" expanded="true" signature="53:4163" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="140:247" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="373:4151" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="399:4140" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="459:2192" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="621:2173" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="647:974" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="1000:1381" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="1407:1763" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="1789:2150" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="2268:4125" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="2349:4106" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="2417:3031" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="2597:3004" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="3092:4083" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="3166:4056" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="3249:3462" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="3529:4024" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="4220:14512" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="4301:7486" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="4327:4889" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="4363:4874" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="4424:4855" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="4915:7471" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="5013:5549" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="5647:6164" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="6262:6808" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="6906:7456" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="7557:8426" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="7718:8411" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="8006:8396" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="8437:14036" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="14092:14504" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="14262:14489" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="14292:14474" placeholder="..." />
+                <marker date="1486883040991" expanded="true" signature="14332:14455" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contato.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/index/contato.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.387097">
+              <caret line="9" column="111" selection-start-line="9" selection-start-column="111" selection-end-line="9" selection-end-column="111" />
+              <folding>
+                <marker date="1486883055414" expanded="true" signature="613:844" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="645:833" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="696:818" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="914:3360" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="943:3271" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="988:3260" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="1023:1511" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="1099:1260" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="1099:1320" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="1346:1423" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="1346:1492" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="1546:3245" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="1694:3226" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="1732:2609" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="1779:2013" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="1832:1982" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="2060:2298" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="2113:2267" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="2345:2582" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="2398:2551" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="2654:2805" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="2850:3005" placeholder="..." />
+                <marker date="1486883055414" expanded="true" signature="3059:3202" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3464567">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/layout.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/index/menu.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.774194">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Route.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Route.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.387097">
+              <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -79,7 +596,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/App/Models/Clientes.php" />
         <option value="$PROJECT_DIR$/vendor/LA/DI/Container.php" />
         <option value="$PROJECT_DIR$/vendor/LA/Model/Update.php" />
@@ -87,31 +603,37 @@
         <option value="$PROJECT_DIR$/vendor/LA/Model/Table.php" />
         <option value="$PROJECT_DIR$/vendor/LA/Model/Create.php" />
         <option value="$PROJECT_DIR$/App/Conn.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/App/Views/layout.phtml" />
         <option value="$PROJECT_DIR$/App/Views/index/header.php" />
         <option value="$PROJECT_DIR$/App/Views/index/index.phtml.php" />
         <option value="$PROJECT_DIR$/App/Views/index/404.phtml" />
         <option value="$PROJECT_DIR$/App/Controllers/ErrorController.php" />
         <option value="$PROJECT_DIR$/App/Views/error/error.phtml" />
-        <option value="$PROJECT_DIR$/App/Views/index/header.phtml" />
         <option value="$PROJECT_DIR$/vendor/LA/Controllers/Action.php" />
-        <option value="$PROJECT_DIR$/App/Views/index/menu.phtml" />
         <option value="$PROJECT_DIR$/App/Helpers/PHPMailer.php" />
-        <option value="$PROJECT_DIR$/App/Views/index/index.phtml" />
         <option value="$PROJECT_DIR$/App/Helpers/Mailer.php" />
         <option value="$PROJECT_DIR$/public/assets/php/sign-in-form.php" />
         <option value="$PROJECT_DIR$/App/Views/index/footer.phtml" />
         <option value="$PROJECT_DIR$/App/Views/index/error.phtml" />
         <option value="$PROJECT_DIR$/App/Controllers/PublicController.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/vendor/LA/Init/Bootstrap.php" />
-        <option value="$PROJECT_DIR$/Config.php" />
-        <option value="$PROJECT_DIR$/App/Route.php" />
-        <option value="$PROJECT_DIR$/App/Controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/public/assets/js/custom.js" />
+        <option value="$PROJECT_DIR$/public/assets/php/twitter/index.php" />
+        <option value="$PROJECT_DIR$/Config.php" />
+        <option value="$USER_HOME$/Desktop/footer.phtml" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/public/.htaccess" />
+        <option value="$PROJECT_DIR$/public/assets/css/style.css" />
+        <option value="$USER_HOME$/Desktop/Config.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/App/Views/index/menu.phtml" />
+        <option value="$PROJECT_DIR$/App/Route.php" />
+        <option value="$PROJECT_DIR$/vendor/LA/Init/Bootstrap.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/App/Views/index/header.phtml" />
+        <option value="$PROJECT_DIR$/App/Views/index/index.phtml" />
+        <option value="$PROJECT_DIR$/App/Views/index/contato.phtml" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -158,7 +680,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,46 +722,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fadev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fadev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="App" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -259,12 +740,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fadev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -278,10 +782,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\www\fadev\App\Views\index" />
-      <recent name="C:\www\fadev\App\Views\404" />
+      <recent name="C:\www\fadev\App\Views\contato" />
       <recent name="C:\www\fadev\App\Views" />
+      <recent name="C:\www\fadev\App\Views\404" />
       <recent name="C:\www\mvc\public" />
-      <recent name="C:\www\mvc" />
     </key>
   </component>
   <component name="RunManager">
@@ -327,9 +831,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -367,41 +871,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/LA/Init/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/LA/Controllers/Action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -479,13 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/LA/Model/Create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024746906">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/LA/Model/Delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44544432">
@@ -521,24 +983,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/layout.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Conn.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.387097">
           <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/LA/Model/Table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1290324">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -549,60 +997,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19797525">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/diggin/diggin-http-charset/demos/Diggin/Http/Charset/wrapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.049493812">
-          <caret line="2" column="42" selection-start-line="1" selection-start-column="29" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/diggin/diggin-http-charset/demos/Diggin/Http/Charset/detect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19797525">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/diggin/diggin-http-charset/src/Diggin/Http/Charset/WrapperFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22272216">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024746906">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/php/twitter/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/index/menu.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3959505">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/LA/DI/Container.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.645162">
           <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,26 +1018,192 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11956522">
-          <caret line="5" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Helpers/Mailer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35658044">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/php/sign-in-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/index/footer.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="120" column="19" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/php/twitter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09565217">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35434783">
+          <caret line="146" column="14" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14848144">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/animations.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/settings.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.28695652">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14347826">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07173913">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14848144">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/LA/Controllers/Action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44544432">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/index/error.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3464567">
+          <caret line="14" column="82" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5444319">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#36#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/LA/Model/Table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024746906">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1486292581607" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1486292581607" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/LA/Model/Create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024746906">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1486292592007" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/LA/Init/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8387096">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/layout.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/index/menu.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.774194">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/index/header.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state vertical-scroll-proportion="3.967742">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -647,129 +1211,84 @@
     <entry file="file://$PROJECT_DIR$/App/Views/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486761605836" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="53:4163" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="140:247" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="373:4151" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="399:4140" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="459:2192" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="621:2173" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="647:974" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="1000:1381" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="1407:1763" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="1789:2150" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="2268:4125" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="2349:4106" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="2417:3031" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="2597:3004" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="3092:4083" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="3166:4056" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="3249:3462" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="3529:4024" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="4220:14512" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="4301:7486" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="4327:4889" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="4363:4874" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="4424:4855" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="4915:7471" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="5013:5549" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="5647:6164" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="6262:6808" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="6906:7456" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="7557:8426" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="7718:8411" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="8006:8396" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="8437:14036" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="14092:14504" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="14262:14489" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="14292:14474" placeholder="..." />
+            <marker date="1486883040991" expanded="true" signature="14332:14455" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/index/error.phtml">
+    <entry file="file://$PROJECT_DIR$/App/Views/index/contato.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32170978">
-          <caret line="13" column="149" selection-start-line="13" selection-start-column="149" selection-end-line="13" selection-end-column="149" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14347826">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/LA/Controllers/Action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42069742">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/index/footer.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.8357706">
-          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="9" column="111" selection-start-line="9" selection-start-column="111" selection-end-line="9" selection-end-column="111" />
           <folding>
-            <marker date="1486825492755" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1486825492755" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="613:844" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="645:833" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="696:818" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="914:3360" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="943:3271" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="988:3260" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="1023:1511" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="1099:1260" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="1099:1320" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="1346:1423" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="1346:1492" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="1546:3245" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="1694:3226" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="1732:2609" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="1779:2013" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="1832:1982" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="2060:2298" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="2113:2267" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="2345:2582" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="2398:2551" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="2654:2805" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="2850:3005" placeholder="..." />
+            <marker date="1486883055414" expanded="true" signature="3059:3202" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/LA/Init/Bootstrap.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6929134">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24746907">
-          <caret line="10" column="103" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.123734534">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.193548">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#36#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/php/sign-in-form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.4838705">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8847826">
-          <caret line="342" column="11" selection-start-line="342" selection-start-column="11" selection-end-line="342" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.3464567">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

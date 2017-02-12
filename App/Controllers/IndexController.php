@@ -18,7 +18,10 @@ class IndexController extends Action
         $this->render("index", false, true, true);
 
         //RENDER('view',se layout, header, footer);
+    }
 
+    public function contato(){
+        $this->render("contato", false, true, true);
     }
 
     public function error(){

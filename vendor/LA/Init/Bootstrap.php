@@ -16,21 +16,20 @@ abstract class Bootstrap
 
     protected function run($url){
         $this->initConfig();
-        array_walk($this->routes, function($routes) use($url){
-            if($url == $routes['route']){
-                $class = "App\\Controllers\\".ucfirst($routes['controller']);
-                $controller = new $class;
-                $action = $routes['action'];
-                $controller->$action();
-                exit();
-            }else if($url != $routes['route']){
-                $class = "App\\Controllers\\IndexController";
-                $controller = new $class;
-                $action = "error";
-                $controller->$action();
-                exit();
-            }
-        });
+
+
+            array_walk($this->routes, function($routes) use($url){
+                if($url == $routes['route']){
+                    $class = "App\\Controllers\\".ucfirst($routes['controller']);
+                    $controller = new $class;
+                    $action = $routes['action'];
+                    $controller->$action();
+                }
+
+            });
+
+
+
     }
 
     protected function setRoutes(array $routes){
