@@ -2,28 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="007bfae2-c67f-4486-a63b-54191e6f915b" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\www\fadev\App\Models\Clientes.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\fadev\public\assets\php\sign-in-form.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/LA/Controllers/Action.php" afterPath="$PROJECT_DIR$/vendor/LA/Controllers/Action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/LA/Init/Bootstrap.php" afterPath="$PROJECT_DIR$/vendor/LA/Init/Bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Conn.php" afterPath="$PROJECT_DIR$/App/Conn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controllers/IndexController.php" afterPath="$PROJECT_DIR$/App/Controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Helpers/Mailer.php" afterPath="$PROJECT_DIR$/App/Helpers/Mailer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Route.php" afterPath="$PROJECT_DIR$/App/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/LA/Model/Table.php" afterPath="$PROJECT_DIR$/vendor/LA/Model/Table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/LA/Model/Update.php" afterPath="$PROJECT_DIR$/vendor/LA/Model/Update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/php/contact-form.php" afterPath="$PROJECT_DIR$/public/assets/php/contact-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/index/contato.phtml" afterPath="$PROJECT_DIR$/App/Views/index/contato.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/custom.js" afterPath="$PROJECT_DIR$/public/assets/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/index/footer.phtml" afterPath="$PROJECT_DIR$/App/Views/index/footer.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/index/index.phtml" afterPath="$PROJECT_DIR$/App/Views/index/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/jquery.validate.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.validate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/index/menu.phtml" afterPath="$PROJECT_DIR$/App/Views/index/menu.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/style.css" afterPath="$PROJECT_DIR$/public/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mvc.iws" />
@@ -46,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Read.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Read.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/LA/Model/Read.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4888889">
+            <state vertical-scroll-proportion="-10.96875">
               <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
               <folding>
                 <marker date="1490564578724" expanded="true" signature="557:580" placeholder="SELECT * FRO..." />
@@ -106,6 +84,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-7.90625">
               <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21045752">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -428,7 +416,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1918" height="1041" extended-state="0" />
+    <frame x="1" y="1" width="1918" height="1041" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1486911" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -745,14 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21045752">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/LA/Controllers/Action.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12810458">
@@ -840,11 +820,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/LA/Model/Read.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4888889">
+        <state vertical-scroll-proportion="-10.96875">
           <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
           <folding>
             <marker date="1490564578724" expanded="true" signature="557:580" placeholder="SELECT * FRO..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21045752">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
