@@ -9,6 +9,7 @@ abstract class Bootstrap
 
     public function __construct(){
         $this->initRoutes();
+        $this->setCharset();
         $this->run($this->getUrl());
     }
 
@@ -16,20 +17,14 @@ abstract class Bootstrap
 
     protected function run($url){
         $this->initConfig();
-
-
-            array_walk($this->routes, function($routes) use($url){
-                if($url == $routes['route']){
-                    $class = "App\\Controllers\\".ucfirst($routes['controller']);
-                    $controller = new $class;
-                    $action = $routes['action'];
-                    $controller->$action();
-                }
-
-            });
-
-
-
+        array_walk($this->routes, function($routes) use($url){
+            if($url == $routes['route']){
+                $class = "App\\Controllers\\".ucfirst($routes['controller']);
+                $controller = new $class;
+                $action = $routes['action'];
+                $controller->$action();
+            }
+        });
     }
 
     protected function setRoutes(array $routes){
@@ -42,5 +37,9 @@ abstract class Bootstrap
 
     private function initConfig(){
         require_once '../Config.php';
+    }
+
+    private function setCharset(){
+        header ('Content-type: text/html; charset=ISO-8859-1');
     }
 }

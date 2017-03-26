@@ -9,6 +9,7 @@ class Update extends Table
     protected $update;
 
     //->update("tabela",$dados, "WHERE id=:id", id=5)
+
     public function update($table, array $dados, $termos, $parseString){
         $this->table = (string) $table;
         $this->dados = $dados;
@@ -31,5 +32,9 @@ class Update extends Table
         }catch (\PDOException $e){
             return $e->getCode()." - ".$e->getMessage()." - ".$e->getLine();
         }
+
+        return $this;
     }
+
+
 }

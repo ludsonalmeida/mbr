@@ -8,9 +8,6 @@ abstract class Table
     protected $db;
     protected $table;
     protected $dados;
-    protected $parseString;
-    protected $places;
-    protected $termos;
 
 
     public function __construct(\PDO $db){
@@ -37,4 +34,6 @@ abstract class Table
             return $e->getCode()." - ".$e->getMessage()." - ".$e->getLine();
         }
     }
+
+
 }

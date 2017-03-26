@@ -2561,4 +2561,14 @@
 	.bg-image-7 { background-image: url('../images/backgrounds/background07.jpg'); }
 	.bg-image-8 { background-image: url('../images/backgrounds/background08.jpg'); }
 	.bg-image-9 { background-image: url('../images/backgrounds/background09.jpg'); }
-	
+
+
+	#curso{
+		color: #333;
+		background-color:#fff;
+	}
+
+	#curso select{
+		color:#333;
+		background-color:#fff;
+	}

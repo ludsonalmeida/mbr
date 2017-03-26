@@ -307,43 +307,43 @@ var Trener = {
 			messages: {
 				emailSigned: {
 					required : "Por favor, digite seu e-mail",
-					minlength : "Você digitou um e-mail inválido."
+					minlength : "Voce digitou um e-mail inválido."
 				},
 				acceptRules: {
 					required : "Por favor aceite os termos."
 				}
 			}
 		});
-	
-		$signInForm.submit(function(){
+
+
+		/*$signInForm.submit(function(){
 			$alertModal.find('#alertModalLabel').html('');
 			$alertModal.find('.modal-alert-content').html('');
-			if ($signInForm.valid()){
-				$.ajax({
-					type: "POST",
-					url: "php/sign-in-form.php",
+			if($signInForm.valid()){
+
+				var request = $.ajax({
+					method: "POST",
+					url:"/sign-in",
 					data: $(this).serialize(),
-					success: function(msg) {
-						if (msg === 'SEND') {
+					success: function(msg){
+						if(msg == 'SEND'){
 							alertLabel = "Enviado!";
 							response = '<div><span class="icon icon-lg"><i class="fa fa-download text-primary"></i></span></div>Enviado! Por favor <strong>cheque sua caixa de e-mail</strong>. Obrigado! ';
-						}
-						else {
+						}else{
 							alertLabel = "Vish! Deu Ruim!";
-							response = '<div><span class="icon icon-lg"><i class="fa fa-times text-muted"></i></span></div>Ooops... Houston nós temos um problema!';
+							response = '<div><span class="icon icon-lg"><i class="fa fa-times text-muted"></i></span></div>Ooops... Houston temos um problema!';
 						}
 						$alertModal.find('#alertModalLabel').prepend(alertLabel);
 						$alertModal.find('.modal-alert-content').prepend(response);
 						$alertModal.modal('show');
 					}
-				 });
-				return false;
+				});
 			}
 			return false;
-		});
-	
-		/* Contact Form */
-		
+		});*/
+
+		//Contact Form
+
 		var $contactForm  = $('#contact-form, #contact-form-extended');
 	
 		$contactForm.validate({
@@ -367,14 +367,14 @@ var Trener = {
 					minlength   : "Seu nome precisa ter pelo menos 2 caracteres"
 				},
 				email: {
-					required    : "Por favor,  digite um e-mail válido.",
-					minlength   : "Você digitou um e-mail inválido."
+					required    : "Por favor,  digite um e-mail valido.",
+					minlength   : "Você digitou um e-mail invalido."
 				},
 				message: {
 					required    : "Por favor,  digite sua mensagem.",
 					minlength   : "Digite pelo menos 10 caracteres."
 				}
-			},
+			}
 		});
 	
 		$contactForm.submit(function() {
@@ -382,25 +382,25 @@ var Trener = {
 			$alertModal.find('.modal-alert-content').html('');
 			var response;
 			if ($contactForm.valid()){
-				$.ajax({
-					type: "POST",
-					url: "php/contact-form.php",
+				var request = $.ajax({
+					method: "POST",
+					url: "/enviar-contato",
 					data: $(this).serialize(),
 					success: function(msg) {
 						if (msg === 'SEND') {
 							alertLabel = "Mensagem Enviada!";
-							response = '<div><span class="icon icon-lg"><i class="fa fa-check text-primary"></i></span></div>Obrigado! Sua mensagem vale muito para nós - Em breve entraremos em contato';
+							response = '<div><span class="icon icon-lg"><i class="fa fa-check text-primary"></i></span></div>Obrigado! Sua mensagem vale muito! - Em breve entraremos em contato.';
 						}
 						else {
 							alertLabel = "Vish! Deu ruim!!";
-							response = '<div><span class="icon icon-lg"><i class="fa fa-times text-muted"></i></span></div>Ooops... Parece que algo não deu certo.';
+							response = '<div><span class="icon icon-lg"><i class="fa fa-times text-muted"></i></span></div>Ooops... Parece que algo deu errado.';
 						}
 						$alertModal.find('#alertModalLabel').prepend(alertLabel);
 						$alertModal.find('.modal-alert-content').prepend(response);
 						$alertModal.modal('show');
-					}
-				 });
-				return false;
+
+						}
+				});
 			}
 			return false;
 		});

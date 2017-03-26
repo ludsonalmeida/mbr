@@ -11,13 +11,20 @@ abstract class Action
         $this->view = new \stdClass();
     }
 
-    protected function render($action, $layout = true, $header = true, $footer = true){
+    protected function render($action, $layout = true, $header = true, $footer = true, $admin = null){
         $this->action = $action;
+
+        if($admin == true){
+            include_once("../App/Views/Admin/header.phtml");
+            include_once("../App/Views/Admin/menu.phtml");
+            utf8_encode($this->content());
+            include_once("../App/Views/Admin/footer.phtml");
+        }
+
         if($layout == true && file_exists("../App/Views/layout.phtml")) {
             include_once("../App/Views/layout.phtml");
 
-        }else if($header == true AND $footer == true AND file_exists("../App/Views/index/header.phtml") AND file_exists("../App/Views/index/footer.phtml")){
-
+        }else if($header == true && $footer == true && file_exists("../App/Views/index/header.phtml") && file_exists("../App/Views/index/footer.phtml")){
             include_once("../App/Views/index/header.phtml");
             utf8_encode($this->content());
             include_once("../App/Views/index/footer.phtml");

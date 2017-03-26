@@ -2,12 +2,12 @@
 <div id="page-title">
 
     <div class="title-bar dark bg-black padded-vertical-60">
-        <div class="bg-image bg-image-3"></div>
+        <div class="bg-image bg-image-4"></div>
         <div class="overlay overlay-black editable-alpha" data-alpha="70"></div>
         <div class="container">
             <span class="sep sep-primary sep-no-top"></span>
             <h2 class="text-uppercase margin-bottom-0"><strong>Contato</strong></h2>
-            <span class="text-xs text-muted text-uppercase">É um prazer poder ouvir o que você tem a nos dizer!</span>
+            <span class="text-xs text-muted text-uppercase">Mande sua mensagem pra gente!</span>
         </div>
     </div>
 
@@ -35,7 +35,7 @@
                     <strong>SQN 316</strong><br>
                     F - 307<br>
                     Asa Norte, Brasília/DF<br>
-                    <abbr title="Phone">T:</abbr> (61) 98314-7515
+                    <abbr title="Telefone">T:</abbr> (61) 98314-7515
                 </address>
                 <address>
                     <strong>E-mail</strong><br>
@@ -45,40 +45,40 @@
             <div class="col-md-8">
                 <h4><strong>Escreva</strong> para nós!</h4>
                 <!-- Contact Form -->
-                <form id="contact-form-extended">
+                <form id="contact-form-extended" method="post" action="/contato">
                     <div class="row">
                         <div class="col-md-4">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="name2" name="name" placeholder="Name">
+                                <input type="text" class="form-control" id="name2" name="nome" placeholder="Nome">
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="email2" name="email" placeholder="Email">
+                                <input type="email" class="form-control" id="email2" name="email" placeholder="E-mail">
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone ">
+                                <input type="text" class="form-control" id="phone" name="telefone" placeholder="Telefone">
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                        <input type="text" class="form-control" id="subject" name="assunto" placeholder="Assunto" required>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" id="message2" name="message" rows="3"  placeholder="Message"></textarea>
+                        <textarea class="form-control" id="message2" name="mensagem" rows="3"  placeholder="Mensagem"></textarea>
                     </div>
                     <div class="form-group clearfix">
-                        <button type="submit" class="btn btn-primary btn-filled btn-sm pull-right">Enviar!</button>
+                        <input type="submit" value="Enviar" name="submit" class="btn btn-primary btn-filled btn-sm pull-right">
                     </div>
                 </form>
             </div>
         </div>
     </div>
 
-    <!-- Google Map -->
-    <div id="google-map-dark" class="google-map"></div>
+    <!-- Google Map
+    <div id="google-map-dark" class="google-map"></div>-->
 
 </div>
 <!-- Content / End -->
