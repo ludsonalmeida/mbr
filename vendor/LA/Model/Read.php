@@ -21,7 +21,6 @@ class Read extends Table
             parse_str($parseString, $this->places);
         endif;
 
-
         $this->select = "SELECT * FROM {$table} {$termos}";
 
         $this->termos = $termos;
@@ -43,7 +42,10 @@ class Read extends Table
     }*/
 
     public function getRowCount(){
-        return $this->read->getRowCount();
+        $this->connect();
+        $this->getSyntax();
+        $this->read->execute();
+        return $this->read->rowCount();
     }
 
     /*public function fullRead($query, $parseString = null){
@@ -53,8 +55,6 @@ class Read extends Table
         endif;
         $this->stmt->execute();
     }*/
-
-
 
     //Prepara a Query e seta o fetch Mode
     public function connect(){

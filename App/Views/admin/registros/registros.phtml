@@ -1,0 +1,49 @@
+<?php
+    $registros = $this->view->registros;
+
+?>
+<section class="content">
+    <section class="widget">
+        <header>
+            <span class="icon">&#128196;</span>
+            <hgroup>
+                <h1>Registros</h1>
+                <h2>Telefones submetidos</h2>
+            </hgroup>
+        </header>
+
+            <div class="content">
+                <table id="myTable" border="0" width="100">
+                    <thead>
+                    <tr>
+                        <th class="header">Nome</th>
+                        <th class="header">Telefone</th>
+                        <th class="header">E-mail</th>
+                        <th class="header">Mensagem</th>
+                        <th class="header" colspan="3">Ações</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                        foreach($registros as $registro):
+                    ?>
+                    <tr class="odd">
+
+                        <td><?php echo $registro['nome'];?></td>
+                        <td><?php echo $registro['telefone'];?></td>
+                        <td><?php echo $registro['email'];?></td>
+                        <td><?php echo $registro['mensagem'];?></td>
+                        <td><a href="#">Editar</a> | <a href="#">Excluir</a></td>
+
+                    </tr>
+                    <?php endforeach;?>
+                    </tbody>
+
+                </table>
+            </div>
+
+        <?php echo $this->view->paginator;?>
+
+    </section>
+</section>
+

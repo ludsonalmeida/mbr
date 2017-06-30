@@ -96,7 +96,7 @@ $(document).ready(function() {
 	});
 	
 	// Clear input fields on focus
-	$('input').each(function() {
+	/*$('input').each(function() {
 		var default_value = this.value;
 		$(this).focus(function(){
 		   if(this.value == default_value) {
@@ -108,7 +108,7 @@ $(document).ready(function() {
 		           this.value = default_value;
 		   }
 		});
-	});
+	});*/
 	
     $('.post').wysiwyg({
 		controls: {

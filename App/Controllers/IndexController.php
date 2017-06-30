@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use LA\Controllers\Action;
 use App\Helpers\Mailer;
-
+use LA\DI\Container;
 
 
 class IndexController extends Action
@@ -14,16 +14,24 @@ class IndexController extends Action
      $this->render("index", false, true, true);
     }
 
-    public function contato(){
-        $this->render("contato", false, true, true);
 
-    }
-    public function cursos_logica(){
-        $this->render("cursos/logica", false, true , true);
-    }
+    public function cadastrar(){
 
-     public function ebook_comecando_web(){
-        header('Location:https://mega.nz/#!JV4HwJiD!88-UrhHqdg3eot-TkQUzQoiIahlYbQLHZsYP-cbZ4tY');
+        if(isset($_POST['enviar'])){
+            $dados['nome']       = $_POST['nome'];
+            $dados['telefone']   = $_POST['telefone'];
+            $dados['email']      = $_POST['email'];
+            $dados['mensagem']   = $_POST['mensagem'];
+
+            $cadastrar = Container::getCrud('Create');
+            $this->view->cadastrar = $cadastrar->create("tb_registros", $dados);
+            $this->view->msg = true;
+        }
+
+        //$this->create = "INSERT INTO {$this->table} ({$campos}) VALUES ({$prepare})";
+        //$dados = [ 'nome telefone email mensagem',  ];
+
+
     }
 
     public function error(){
@@ -47,27 +55,6 @@ class IndexController extends Action
         //$this->render("php/sign-in-form", false, false, false);
     }*/
 
-    public function sendContato(){
-            $mail = new Mailer();
-            $mail->mailerConfig();
-            $mail->AddAddress('ludson.bsa@gmail.com');
-            $mail->setContatoMsg();
-            if (!$mail->send()) {
-                echo "Mailer Error: " . $mail->ErrorInfo;
-                return false;
-            } else {
-                echo ('SEND');
-                return true;
-            }
-    }
 
-
-    public function email_confirm(){
-        $this->render('email/confirmar', false, true, true);
-    }
-
-    public function inscrito(){
-        $this->render('email/inscrito', false, true, true);
-    }
 
 }

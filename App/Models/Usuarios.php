@@ -6,5 +6,5 @@ use LA\Model\Table;
 
 class Usuarios extends Table
 {
-    protected $table = "fd_users";
+    protected $table = "tb_users";
 }

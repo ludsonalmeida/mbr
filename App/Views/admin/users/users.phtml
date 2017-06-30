@@ -1,0 +1,37 @@
+<?php
+$users = $this->view->usuarios;
+foreach($users as $user);
+?>
+<section class="content">
+    <section class="widget">
+        <header>
+            <span class="icon">&#128101;</span>
+            <hgroup>
+                <h1>Usuários</h1>
+                <h2>Gestão de Usuários</h2>
+            </hgroup>
+        </header>
+
+            <div class="content">
+                <table id="myTable" border="0" width="100">
+                    <thead>
+                    <tr>
+                        <th class="header">E-mail</th>
+                        <th class="header">Nível</th>
+                        <th colspan="3" class="header">Status</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="odd">
+
+                        <td><?php echo $user['email'];?></td>
+                        <td><?php echo $user['tipo'];?></td>
+                        <td><?php echo $user['status'];?></td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+    </section>
+</section>

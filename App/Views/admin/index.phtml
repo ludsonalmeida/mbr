@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-    <title>#FADEV - Painel Administrativo</title>
+    <title>MBR - Painel Administrativo</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="robots" content="" />
@@ -14,8 +14,13 @@
 </head>
 <body class="login">
 <section>
-    <h1><strong>#FADEV</strong> Admin</h1>
-    <form method="post" action="/admin/dashboard">
+
+    <?php
+        session_start();
+        ob_start();
+    ?>
+    <h1><strong>MBR</strong> Admin</h1>
+    <form method="post" action="/admin/login">
         <input type="text" name="email" value="E-mail" />
         <input value="Senha" name="senha" type="password" />
         <button type="submit" name="login" class="blue">Login</button>

@@ -1,48 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <!-- Title -->
-    <title>Fábrica de Desenvolvedores - Ludson Almeida</title>
+    <title>Ginastica Íntima</title>
 
-    <!-- Favicons -->
-    <link rel="shortcut icon" href=<?=HOME?>assets/images/favicon.png">
-    <link rel="apple-touch-icon" href="<?=HOME?>assets/images/favicon_60x60.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="<?=HOME?>assets/images/favicon_76x76.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="<?=HOME?>assets/images/favicon_120x120.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="<?=HOME?>assets/images/favicon_152x152.png">
+    <meta name="description" content="Semana da Mulher Bem Resolvida - Cátia Damasceno">
+    <meta name="author" content="MBR">
 
-    <!-- Google Web Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="<?php echo BASE;?>/images/favicon.png" type="image/png" />
+    <link href="<?php echo BASE;?>assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo BASE;?>assets/css/style.css" rel="stylesheet">
+    <link href="<?php echo BASE;?>assets/css/responsive.css" rel="stylesheet">
+    <link href="<?php echo BASE;?>assets/css/hover-min.css" rel="stylesheet">
+    <link href="<?php echo BASE;?>assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,500,700" rel="stylesheet">
+    <link href="<?php echo BASE;?>assets/css/hover-min.css" rel="stylesheet">
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="<?=HOME?>assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="<?=HOME?>assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="<?=HOME?>assets/css/animations.css" />
-    <link rel="stylesheet" type="text/css" href="<?=HOME?>assets/css/owl.carousel.css" />
-    <link rel="stylesheet" type="text/css" href="<?=HOME?>assets/css/owl.transitions.css" />
-    <link rel="stylesheet" type="text/css" href="<?=HOME?>assets/css/owl.theme.css" />
-    <link rel="stylesheet" type="text/css" href="<?=HOME?>assets/colors/red.css" id="colors" />
-    <link rel="stylesheet" type="text/css" href="<?=HOME?>assets/css/font-awesome.min.css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
 
 </head>
-<body class="sticky-nav">
+<body>
 
-<!-- Loader -->
-<div id="page-loader" class="loader-white"></div>
+<div class="container-fluid">
 
-<!-- Header -->
-<header id="header" class="header header-white wide clearfix">
+    <!-- inicio header -->
+    <header class="container-fluid">
 
-    <div class="row">
-        <div class="col-xs-12">
-        <?php include_once('menu.phtml');?>
+        <div class="container">
+            <div class="col-md-12">
+                <div class="col-md-1
+				">
+                </div>
+
+                <div class="col-md-5">
+                    <img src="assets/images/logo-footer.png" class="logo" alt="" title="">
+                </div>
+
+                <div class="col-md-6">
+                    <div class="chamada">
+                        <h1>Descubra o poder da Ginástica Íntima</h1>
+                        <h2>Mais de 20 mil alunas estão colhendo os benefícios dessa prática</h2>
+
+                        <ul>
+                            <li>Sou fisioterapeuta, tenho especialização em uroginecologia</li>
+                            <li>Coach certificada internacionalmente pela universidade de ilinois</li>
+                            <li>13 anos de experiência e prática</li>
+                            <li>Idealizadora do blog Mulheres Bem Resolvidas</li>
+                            <li>34 milhões de views no canal do youtube</li>
+                        </ul>
+
+                        <a href="#contato" class="anchorLink" data-width=330 data-height=411><button class="button btn btn-success btn-large col-md-12">Como participar</button></a>
+
+                        <!-- OPTIN FORM -->
+                        <div class="optin col-md-4" id="optin" style="display:none">
+                            <h2>PREENCHA O FORMULÁRIO</h2>
+                            <form>
+                                <input>
+                            </form>
+                        </div>
+                        <!-- OPTIN FORM -->
+
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="mobile-menu text-uppercase"></div>
-
-</header>
-<!-- Header / End -->
+    </header>
+    <!-- header fim -->

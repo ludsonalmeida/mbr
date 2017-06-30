@@ -12,13 +12,14 @@ abstract class Action
     }
 
     protected function render($action, $layout = true, $header = true, $footer = true, $admin = null){
-        $this->action = $action;
 
+        $this->action = $action;
         if($admin == true){
-            include_once("../App/Views/Admin/header.phtml");
-            include_once("../App/Views/Admin/menu.phtml");
+
+            include("../App/Views/Admin/header.phtml");
+            include("../App/Views/Admin/menu.phtml");
             utf8_encode($this->content());
-            include_once("../App/Views/Admin/footer.phtml");
+            include("../App/Views/Admin/footer.phtml");
         }
 
         if($layout == true && file_exists("../App/Views/layout.phtml")) {

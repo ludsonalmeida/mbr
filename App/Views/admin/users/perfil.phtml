@@ -1,0 +1,50 @@
+<?php
+$users = $this->view->usuarios;
+foreach($users as $user);
+?>
+<section class="content">
+    <section class="widget">
+        <header>
+            <span class="icon">&#128101;</span>
+            <hgroup>
+                <h1>Perfil</h1>
+                <h2>Meu perfil</h2>
+            </hgroup>
+        </header>
+
+        <div class="content">
+            <form name="formulario" action="" method="post" enctype="multipart/form-data" _lpchecked="1">
+
+                <div class="field-wrap">
+                    <input type="text" name="email" value="<?php echo $user['email'];?>" placeholder="">
+                </div>
+                <div class="field-wrap">
+                    <input type="password" name="senha" value="<?php echo $user['senha'];?>" placeholder="" >
+                </div>
+                	<div class="field-wrap">
+
+                    </div>
+
+                    <div class="field-wrap">
+                        <select name="tipo">
+                            <option selected="selected" value="1">Administrador &nbsp;&nbsp;</option>
+                            <option value="2">Cliente &nbsp;&nbsp;</option>
+                        </select>
+                        <br><br>
+                        <div class="field-wrap">
+                            <select name="status">
+                                <option value="">Selecione o status &nbsp;&nbsp;</option>
+                                <option selected="selected" value="1">Ativo &nbsp;&nbsp;</option>
+                                <option value="0">Inativo &nbsp;&nbsp;</option>
+                            </select>
+                        </div>
+                        <br>
+
+                        <button type="submit" name="sendForm" class="green">Atualizar</button> <button type="reset" class="">Limpar</button>
+                        <div class="alert"><?php echo $_SESSION['alerta'];?></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </section>
+</section>
