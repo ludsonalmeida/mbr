@@ -86,6 +86,71 @@ class AdminController extends Action
         }
     }
 
+    public function apagarRegistro(){
+        if(isset($_GET['id'])){
+            $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
+
+            $apaga = Container::getCrud('delete');
+            $this->view->registro = $apaga->delete('tb_registros', "WHERE id = :id",'id='.$id);
+        }
+
+        header("Location: /admin/registros");
+
+        echo    '<section class="alert">
+                        <div class="green">
+                            <p>Registro Apagado</p>
+                            <span class="close">&#10006;</span>
+                        </div>
+                    </section>';
+    }
+
+    public function editarRegistro(){
+        $this->validaSession();
+        if(isset($_GET['id'])){
+            $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
+
+            $ler = Container::getCrud('read');
+            $this->view->registro = $ler->read('tb_registros', "WHERE id = :id",'id='.$id);
+        }
+
+
+        if(isset($_POST['sendForm'])) {
+
+            $nome       = $_POST['nome'];
+            $telefone   = $_POST['telefone'];
+            $email      = $_POST['email'];
+            $mensagem   = $_POST['mensagem'];
+
+            $dados =
+                [
+                    'nome' => $nome,
+                    'telefone' => $telefone,
+                    'email' => $email,
+                    'mensagem' => $mensagem
+                ];
+            $up = Container::getCrud('update');
+            $up->update('tb_registros', $dados, "WHERE id = :id",'id='.$id);
+
+            echo    '<section class="alert">
+                        <div class="green">
+                            <p>Update realizado com sucesso</p>
+                            <span class="close">&#10006;</span>
+                        </div>
+                    </section>';
+
+            header("Location: /admin/registros/editar?id=".$id);
+
+
+
+
+        }
+
+        $this->render("registros/editar", false, false, false, true);
+
+
+
+    }
+
     public function users(){
         $this->validaSession();
 
@@ -131,13 +196,6 @@ class AdminController extends Action
     }
 
     public function dashboard(){
-        //$date = date('Y/m/d H:i:s');
-        /*$dados = [
-
-            'email'=>'truta@icck.com',
-            'senha' => '123452',
-        ];*/
-
         $this->validaSession();
 
         if(isset($_SESSION['logado']) && $_SESSION['logado'] == true){
@@ -148,6 +206,7 @@ class AdminController extends Action
         }
 
     }
+
 
     public function logout(){
         session_start();

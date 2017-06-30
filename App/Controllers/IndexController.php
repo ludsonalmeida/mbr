@@ -11,11 +11,6 @@ class IndexController extends Action
 {
 
     public function index(){
-     $this->render("index", false, true, true);
-    }
-
-
-    public function cadastrar(){
 
         if(isset($_POST['enviar'])){
             $dados['nome']       = $_POST['nome'];
@@ -27,6 +22,13 @@ class IndexController extends Action
             $this->view->cadastrar = $cadastrar->create("tb_registros", $dados);
             $this->view->msg = true;
         }
+     $this->render("index", false, true, true);
+    }
+
+
+    public function cadastrar(){
+
+
 
         //$this->create = "INSERT INTO {$this->table} ({$campos}) VALUES ({$prepare})";
         //$dados = [ 'nome telefone email mensagem',  ];

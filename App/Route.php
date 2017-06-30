@@ -26,6 +26,10 @@ class Route extends Bootstrap
 
         $routes['registros']         = array('route'=>'/admin/registros','controller'=>'adminController','action'=>'registros');
 
+        $routes['editar_registros']  = array('route'=>'/admin/registros/editar','controller'=>'adminController','action'=>'editarRegistro');
+
+        $routes['apagar_registros']  = array('route'=>'/admin/registros/apagar','controller'=>'adminController','action'=>'apagarRegistro');
+
         $routes['logout']            = array('route'=>'/admin/logout','controller'=>'adminController','action'=>'logout');
 
         $this->setRoutes($routes);

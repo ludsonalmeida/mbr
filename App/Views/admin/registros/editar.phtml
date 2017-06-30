@@ -1,0 +1,47 @@
+<?php
+$registro = $this->view->registro;
+foreach($registro as $registro);
+?>
+<section class="content">
+    <section class="widget">
+        <header>
+            <span class="icon">&#128196;</span>
+            <hgroup>
+                <h1>Registros</h1>
+                <h2>Editar Registros</h2>
+            </hgroup>
+        </header>
+
+        <div class="content">
+            <form name="formulario" action="" method="post" enctype="multipart/form-data" _lpchecked="1">
+
+                <div class="field-wrap">
+                    <label>Nome:</label>
+                    <input type="text" name="nome" value="<?php echo $registro['nome']?>" placeholder="">
+                </div>
+
+                <div class="field-wrap">
+                    <label>Telefone:</label>
+                    <input type="text" name="telefone" value="<?php echo $registro['telefone']?>" placeholder="">
+                </div>
+
+                <div class="field-wrap">
+                    <label>E-mail:</label>
+                    <input type="text" name="email" value="<?php echo $registro['email']?>" placeholder="">
+                </div>
+
+                <div class="field-wrap">
+                    <label>Mensagem: </label>
+                    <textarea name="mensagem"><?php echo $registro['mensagem']?></textarea>
+                </div>
+
+
+
+                <button type="submit" name="sendForm" class="green">Atualizar</button> <button type="reset" class="">Limpar</button>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </section>
+</section>

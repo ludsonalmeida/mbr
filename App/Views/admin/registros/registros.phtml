@@ -16,6 +16,7 @@
                 <table id="myTable" border="0" width="100">
                     <thead>
                     <tr>
+                        <th class="header">Registro</th>
                         <th class="header">Nome</th>
                         <th class="header">Telefone</th>
                         <th class="header">E-mail</th>
@@ -28,12 +29,12 @@
                         foreach($registros as $registro):
                     ?>
                     <tr class="odd">
-
+                        <td>#<?php echo $registro['id'];?></td>
                         <td><?php echo $registro['nome'];?></td>
                         <td><?php echo $registro['telefone'];?></td>
                         <td><?php echo $registro['email'];?></td>
                         <td><?php echo $registro['mensagem'];?></td>
-                        <td><a href="#">Editar</a> | <a href="#">Excluir</a></td>
+                        <td><a href="registros/editar?id=<?php echo $registro['id'];?>">Editar</a> | <a href="registros/apagar?id=<?php echo $registro['id'];?>">Excluir</a></td>
 
                     </tr>
                     <?php endforeach;?>
