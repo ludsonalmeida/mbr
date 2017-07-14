@@ -10,6 +10,12 @@
                 <h1>Registros</h1>
                 <h2>Telefones submetidos</h2>
             </hgroup>
+
+            <aside>
+                <button class="ico-font">?</button>
+                <a href="/admin/registros/exportar"><span class="button blue">Exportar</span></a>
+            </aside>
+
         </header>
 
             <div class="content">
@@ -29,7 +35,7 @@
                         foreach($registros as $registro):
                     ?>
                     <tr class="odd">
-                        <td>#<?php echo $registro['id'];?></td>
+                        <td align="center">#<?php echo $registro['id'];?></td>
                         <td><?php echo $registro['nome'];?></td>
                         <td><?php echo $registro['telefone'];?></td>
                         <td><?php echo $registro['email'];?></td>

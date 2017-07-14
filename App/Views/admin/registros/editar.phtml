@@ -26,6 +26,16 @@ foreach($registro as $registro);
                 </div>
 
                 <div class="field-wrap">
+                    <label>Atendimento:</label>
+                    <br>
+                    <select name="atendimento">
+                        <option value="">Atendido</option>
+                        <option value="">Em atendimento</option>
+                        <option value="">Não atendido</option>
+                    </select>
+                </div>
+
+                <div class="field-wrap">
                     <label>E-mail:</label>
                     <input type="text" name="email" value="<?php echo $registro['email']?>" placeholder="">
                 </div>

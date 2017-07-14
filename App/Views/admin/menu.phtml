@@ -1,8 +1,22 @@
+<?php
+    if($_SESSION['nivel'] == 1){
+        //Pode tudo!
+?>
 <nav>
     <ul>
         <li class="section"><a href="<?=HOMEP;?>admin/dashboard"><span class="icon">&#59176;</span> Dashboard</a></li>
+
         <li>
-            <a href="/admin/registros"><span class="icon">&#128196;</span> Registros</a>
+            <a href="/admin/contatos"><span class="icon">&#128196;</span> Contatos</a>
+            <ul class="submenu">
+                <li><a href="/admin/contatos/add">Adicionar Novo contato</a></li>
+                <li><a href="/admin/contatos/add">Boletos Impressos / Expirados</a></li>
+                <li><a href="/admin/contatos/add">Vendidos</a></li>
+                <li><a href="/admin/contatos/add">Não Vendidos</a></li>
+                <li><a href="/admin/contatos/add">Ligar Depois</a></li>
+
+                <li><a href="/admin/profile">Direito a Kit</a></li>
+            </ul>
         </li>
 
         <li>
@@ -13,5 +27,62 @@
             </ul>
         </li>
 
+        <li>
+            <a href="<?=HOMEP;?>admin/config"><span class="icon">&#128101;</span> Configurações
+            </a>
+        </li>
+
     </ul>
 </nav>
+<?php
+    }
+
+    //Caso nível de Responsável
+    if($_SESSION['nivel'] == 2){
+    //Insere os dados de Contato;
+
+?>
+
+<nav>
+    <ul>
+        <li class="section"><a href="<?=HOMEP;?>admin/dashboard"><span class="icon">&#59176;</span> Dashboard</a></li>
+        <li>
+            <a href="/admin/contatos"><span class="icon">&#128196;</span> Contatos</a>
+            <ul class="submenu">
+                <li><a href="/admin/contatos/add">Adicionar Contato</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="/admin/profile"><span class="icon">&#128101;</span> Perfil
+            </a>
+        </li>
+
+    </ul>
+</nav>
+
+<?php
+    }
+    //Caso nível de atendente
+    if($_SESSION['nivel'] == 3) {
+    //Registra apenas dados de atendimento e follow up;
+?>
+        <nav>
+            <ul>
+                <li class="section"><a href="<?=HOMEP;?>admin/dashboard"><span class="icon">&#59176;</span> Dashboard</a></li>
+                <li>
+                    <a href="/admin/contatos"><span class="icon">&#128196;</span> Contatos</a>
+                    <ul class="submenu">
+                        <li><a href="/admin/contatos">Direito a Kit</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="/admin/profile"><span class="icon">&#128101;</span> Perfil
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+<?php
+}

@@ -1,0 +1,135 @@
+<?php
+$registro = $this->view->registro;
+$user = $this->view->user;
+
+foreach($user as $user);
+foreach($registro as $registro);
+?>
+<section class="content">
+    <section class="widget">
+        <header>
+            <span class="icon">&#128196;</span>
+            <hgroup>
+                <h1>Editar Contato <?php echo $registro['nome'];?> </h1>
+                <h2>Fazer atendimento</h2>
+            </hgroup>
+        </header>
+
+        <div class="content">
+            <form name="formulario" action="" method="post" enctype="multipart/form-data">
+
+                <div class="field-wrap">
+                    <label>Data de Cadastro</label>
+                    <br>
+                    <input type="text" value="<?php echo date('d/m/Y H:i:s'); ?>" style="color:#999;" disabled="disabled" placeholder="" />
+                    <input type="hidden" name="data_insercao" value="<?php echo date('d/m/Y H:i:s'); ?>" />
+                </div>
+
+
+                <div class="field-wrap">
+                    <label>Responsável:</label>
+                    <br>
+                    <?php
+                    foreach($registro as $resp);
+                    ?>
+                    <input type="text" disabled value="<?php echo $user['nome'] ?>" />
+                    <input type="hidden" name="tb_users_id" value="<?php echo $user['id'] ?>">
+                </div>
+
+                <div class="field-wrap">
+                    <label>Meio de inserção:</label>
+                    <br>
+                    <select name="meio_insercao">
+                        <option value="Whatsapp">Whatsapp</option>
+                        <option value="Chat">Chat</option>
+                        <option value="E-mail">E-mail</option>
+                        <option value="Facebook">Facebook</option>
+                        <!--<option value="Pré-Checkout">Pré-Checkout</option> -->
+                    </select>
+                </div>
+
+                <div class="field-wrap">
+                    <label>Prioridade:</label>
+                    <select name="prioridade">
+                        <option value="Dúvidas sobre como pagar">Dúvidas sobre como pagar</option>
+                        <option value="Dúvidas profundas sobre o curso">Dúvidas profundas sobre o curso</option>
+                    </select>
+                </div>
+        </div>
+
+        <!-- Dados de Cliente -->
+        <header>
+            <span class="icon">&#128196;</span>
+            <hgroup>
+                <h1>Dados de Cliente</h1>
+                <h2>Informações pessoais</h2>
+            </hgroup>
+        </header>
+        <div class="content">
+
+            <div class="field-wrap">
+                <label>Nome:</label>
+                <br>
+                <input type="text" name="nome" value="<?php echo $registro['nome']; ?>">
+            </div>
+
+            <div class="field-wrap">
+                <label>DDD:</label>
+                <input type="text" id="ddd" name="ddd" value="<?php echo $registro['ddd']; ?>">
+            </div>
+
+            <div class="field-wrap">
+                <label>Telefone:</label>
+                <input type="text" id="telefone" name="telefone" value="<?php echo $registro['telefone']; ?>" placeholder="">
+            </div>
+
+            <div class="field-wrap">
+                <label>E-mail:</label>
+                <input type="text" name="email" value="<?php echo $registro['email']; ?>">
+            </div>
+
+            <div class="field-wrap">
+                <label>Observações sobre o pedido: </label>
+                <textarea name="obs_pedido"><?php if(isset($registro['obs_pedido'])){echo $registro['obs_pedido'];}?></textarea>
+            </div>
+
+        </div>
+
+        <!-- Dados de Atendimento -->
+        <header>
+            <span class="icon">&#128196;</span>
+            <hgroup>
+                <h1>Dados de Atendimento</h1>
+                <h2>Informações sobre Atendimento</h2>
+            </hgroup>
+        </header>
+
+        <div class="content">
+            <div class="field-wrap">
+                <label>Atendente</label>
+                <input type="text" id="atendente" name="atendente" value="Atendente">
+            </div>
+
+            <div class="field-wrap">
+                <label>Pós-Atendimento:</label>
+                <br>
+                <select name="pos_atendimento">
+                    <option value="Vendido ;)">Vendido ;)</option>
+                    <option value="Não vendido :(">Não Vendido :(</option>
+                    <option value="Boleto Gerado">Boleto Gerado</option>
+                    <option value="Ligar depois">Ligar Depois</option>
+                </select>
+            </div>
+
+            <div class="field-wrap">
+                <label>Observações de Follow Up: </label>
+                <textarea name="obs_followUp"><?php ?></textarea>
+            </div>
+
+            <button type="submit" name="sendForm" class="green">Atualizar</button>
+            <button type="reset" class="">Limpar</button>
+        </div>
+
+        </form>
+        </div>
+    </section>

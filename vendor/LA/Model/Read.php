@@ -5,13 +5,11 @@ namespace LA\Model;
 class Read extends Table
 {
 
-
     protected $places;
     protected $select;
     protected $read;
     protected $result;
     protected $termos;
-    protected $bind;
 
     //->Read ($tabela = 'fd_users', $termos = 'WHERE email = :email AND senha = :senha LIMIT :limit', $parseString = "email=ludson.bsa&senha=123&limit=1"));
 
@@ -32,14 +30,18 @@ class Read extends Table
 
     }
 
+    public function fullRead($query){
+        $this->select = $query;
+
+        $this->Execute();
+        return $this->getResult();
+
+    }
+
     private function getResult(){
         return $this->result;
     }
 
-    /*public function getPlaces($parseString){
-        parse_str($parseString, $this->places);
-        $this->stmt->execute();
-    }*/
 
     public function getRowCount(){
         $this->connect();
@@ -47,14 +49,6 @@ class Read extends Table
         $this->read->execute();
         return $this->read->rowCount();
     }
-
-    /*public function fullRead($query, $parseString = null){
-        $this->select = (string) $query;
-        if(!empty($parseString)):
-            parse_str($parseString, $this->places);
-        endif;
-        $this->stmt->execute();
-    }*/
 
     //Prepara a Query e seta o fetch Mode
     public function connect(){
@@ -83,8 +77,7 @@ class Read extends Table
         }catch (\PDOException $e){
             return $e->getCode()." - ".$e->getMessage()." - ".$e->getLine();
         }
-
-
     }
+
 
 }

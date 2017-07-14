@@ -12,6 +12,7 @@ abstract class Table
 
     public function __construct(\PDO $db){
         $this->db = $db;
+        $this->db->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
     }
 
     public function fetchAll(){
@@ -22,6 +23,7 @@ abstract class Table
             return $e->getCode()." - ".$e->getMessage()." - ".$e->getLine();
         }
     }
+
 
     public function find($id){
         try{

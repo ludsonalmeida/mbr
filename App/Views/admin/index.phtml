@@ -19,7 +19,13 @@
         session_start();
         ob_start();
     ?>
+
     <h1><strong>MBR</strong> Admin</h1>
+    <?php
+        if(isset($_GET['erro'])){
+            echo '<div class="red" style="color:#fff">Usuário ou senha incorretos</div>';
+        }
+    ?>
     <form method="post" action="/admin/login">
         <input type="text" name="email" value="E-mail" />
         <input value="Senha" name="senha" type="password" />
@@ -27,7 +33,7 @@
     </form>
     <p><a href="#">Esqueceu a senha?</a></p>
 </section>
-<script src="<?=HOMEP;?>assets/js/jquery-1.11.1.min.js"></script>
+<script src="<?=BASE;?>assets/js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript">
     // Page load delay by Curtis Henson - http://curtishenson.com/articles/quick-tip-delay-page-loading-with-jquery/
     $(function(){

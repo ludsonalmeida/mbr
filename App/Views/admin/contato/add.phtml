@@ -1,0 +1,103 @@
+<?php
+$contato = $this->view->contato;
+
+?>
+
+<?php if(isset($_POST['sendForm'])){
+?>
+<section class="alert">
+    <div class="<?php echo $this->view->corAlerta; ?>">
+        <p><?php echo $this->view->message; ?></p>
+        <span class="close">&#10006;</span>
+    </div>
+</section>
+<?php
+    }
+?>
+
+
+
+<section class="content">
+    <section class="widget">
+        <header>
+            <span class="icon">&#128196;</span>
+            <hgroup>
+                <h1>Adicionar novo Contato</h1>
+                <h2>Inserção de contatos</h2>
+            </hgroup>
+        </header>
+
+
+
+        <div class="content">
+            <form name="formulario" action="/admin/contatos/add" method="post" enctype="multipart/form-data">
+                    <input type="hidden" name="data_de_venda" value="<?php echo date('d/m/Y H:i'); ?>" />
+                        <?php
+                          foreach($contato as $resp);
+                        ?>
+                        <input type="hidden" name="tb_users_id" value="<?php echo $resp['id'] ?>">
+                <div class="field-wrap">
+                    <label>Meio de inserção:</label>
+                    <br>
+                    <select name="insercao_hotmart" required>
+                        <option value="Whatsapp">Whatsapp</option>
+                        <option value="Chat">Chat</option>
+                        <option value="E-mail">E-mail</option>
+                        <option value="Facebook">Facebook</option>
+                        <!--<option value="Pré-Checkout">Pré-Checkout</option> -->
+                    </select>
+                </div>
+
+                <div class="field-wrap">
+                    <label>Prioridade:</label>
+                    <select name="prioridade" required>
+                        <option value="Dúvidas sobre como pagar">Dúvidas sobre como pagar</option>
+                        <option value="Dúvidas profundas sobre o curso">Dúvidas profundas sobre o curso</option>
+                    </select>
+                </div>
+        </div>
+
+        <!-- Dados de Cliente -->
+        <header>
+            <span class="icon">&#128196;</span>
+            <hgroup>
+                <h1>Dados de Cliente</h1>
+                <h2>Informações pessoais</h2>
+            </hgroup>
+        </header>
+        <div class="content">
+
+            <div class="field-wrap">
+                <label>Nome:</label>
+                <br>
+                <input type="text" name="nome" value="" placeholder="">
+            </div>
+
+            <div class="field-wrap">
+                <label>DDD:</label>
+                <input type="text" id="ddd" name="ddd" value="" placeholder="" required>
+            </div>
+
+            <div class="field-wrap">
+                <label>Telefone:</label>
+                <input type="text" id="telefone" name="telefone" value="" placeholder="" required>
+            </div>
+
+            <div class="field-wrap">
+                <label>E-mail:</label>
+                <input type="text" name="email" value="" placeholder="" required>
+            </div>
+
+            <div class="field-wrap">
+                <label>Observações sobre o pedido: </label>
+                <textarea name="observacao"></textarea>
+            </div>
+
+            <button type="submit" name="sendForm" class="green">Adicionar</button>
+            <button type="reset" class="">Limpar</button>
+
+        </div>
+
+        </form>
+        </div>
+    </section>

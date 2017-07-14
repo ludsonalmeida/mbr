@@ -75,6 +75,17 @@ html {
 	height: 100%;
 }
 
+select{
+	width:100%;
+	border:1px solid #005580;
+	padding:5px;
+}
+
+select:focus{
+	border:1px solid #005580;
+	padding:5px;
+}
+
 body {
 	margin:0;
 	padding: 0;
@@ -181,7 +192,6 @@ header input {
 	width: 20%;
 	color: #8a8a8a;
 	margin: -20px 0 0 0;
-	
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -294,6 +304,17 @@ section.alert .orange, div.orange, button.orange {
 	background: linear-gradient(to bottom, #FE962B 0%,#FEAE46 100%); /* W3C */ 
 }
 
+.red {
+	border: 1px solid #af2b1b !important;
+	background: #bc3423 !important;; /* Old browsers */
+	background: -moz-linear-gradient(top, #bc3423 0%, #cd4433 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bc3423), color-stop(100%,#cd4433)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #bc3423 0%,#cd4433 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #bc3423 0%,#cd4433 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #bc3423 0%,#cd4433 100%) !important; /* IE10+ */
+	background: linear-gradient(to bottom, #bc3423 0%,#cd4433 100%) !important; /* W3C */
+}
+
 section.alert .red, div.red, button.red {
 	border: 1px solid #af2b1b;
 	background: #bc3423; /* Old browsers */
@@ -356,6 +377,41 @@ section.user img {
 	-moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3); 
 }
 
+
+.filtroSelect{
+	max-width:120px !important;
+	float:right;
+}
+
+.filtroSelect select{
+	margin-top:2px;
+	padding:9px 20px;
+	width:120px;
+}
+
+.pesquisa{
+	margin-left:-60px !important;
+}
+
+.pesquisa input[type="text"]{
+	padding: 10px 10px;
+	margin-top:3px;
+	min-width:180px;
+	float:left;
+	border-radius:0;
+	margin-right:0px;
+	margin-left:20px;
+}
+
+.pesquisa input[type="submit"]{
+	padding: 10px 0px;
+	width:80px;
+	margin-top:2px;
+	margin-right:20px;
+	border-radius:0;
+	color:#fff;
+	cursor: pointer;
+}
 section.user .buttons {
 	padding: 0 25px 0 0;
 	display: table-cell;
@@ -464,6 +520,19 @@ button.green {
 	background: -o-linear-gradient(top, #9bc747 0%,#82bd42 100%); /* Opera 11.10+ */ 
 	background: -ms-linear-gradient(top, #9bc747 0%,#82bd42 100%); /* IE10+ */ 
 	background: linear-gradient(to bottom, #9bc747 0%,#82bd42 100%); /* W3C */ 
+}
+
+.green {
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+	border: 1px solid #719e37;
+	margin: 0;
+	background: #9bc747; /* Old browsers */
+	background: -moz-linear-gradient(top, #9bc747 0%, #82bd42 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9bc747), color-stop(100%,#82bd42)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #9bc747 0%,#82bd42 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #9bc747 0%,#82bd42 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #9bc747 0%,#82bd42 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #9bc747 0%,#82bd42 100%); /* W3C */
 }
 
 /**  WIDGETS **/
@@ -1452,7 +1521,32 @@ body.login {
 	background-position: 0px -150px;
 }
 
+.field-wrap{background: #f4f4f4; padding:20px; margin-bottom:10px;}
+
 /** WYSIWYG EDITOR **/
+.field-wrap p{
+	margin-left:2px;
+	font-size:14px;
+	font-weight: bold;
+}
+
+.field-wrap input[type="radio"]{
+	max-width:25px;
+	margin-top:10px;
+}
+
+.field-wrap label span{
+	font-weight: normal;
+	background-color: #e2e2e2;
+	padding:15px;
+}
+
+.field-wrap label{
+	margin-left:2px;
+	margin-right:15px;
+	font-size:14px;
+	font-weight: bold;
+}
 
 .field-wrap.wysiwyg-wrap {
 	height:180px;

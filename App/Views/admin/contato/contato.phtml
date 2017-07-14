@@ -1,0 +1,78 @@
+<?php
+    $contatos = $this->view->contatos;
+?>
+
+
+<section class="content">
+    <section class="widget">
+        <header>
+            <span class="icon">&#128196;</span>
+            <hgroup>
+                <h1>Contatos</h1>
+                <h2>Registros de contatos existentes</h2>
+            </hgroup>
+
+            <aside>
+                <div class="pesquisa">
+                    <form action="/admin/contatos" method="get">
+                        <input type="text" name="busca" placeholder="Buscar por Nome ou E-mail..."/>
+                        <input type="submit" class="blue" value="Pesquisar" />
+                    </form>
+                </div>
+            </aside>
+
+        </header>
+
+            <div class="content">
+
+                <table id="myTable" border="0" width="100">
+                    <thead>
+                    <tr>
+                        <th class="header">Nome</th>
+                        <th class="header">Telefone</th>
+                        <th class="header">Meio de Inserção</th>
+                        <th class="header">E-mail</th>
+                        <th class="header">Responsável</th>
+                        <th class="header" colspan="3">Ações</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                    foreach($contatos as $contato):
+
+                        ?>
+                        <tr class="odd">
+
+                            <td><?php echo utf8_decode($contato['nome']);?></td>
+                            <td><?php echo $contato['telefone'];?></td>
+                            <td><?php echo $contato['insercao_hotmart'];?></td>
+                            <td><?php echo $contato['email'];?></td>
+                            <td><?php echo $contato['user_nome'];?></td>
+
+                            <?php
+                            if($_SESSION['nivel'] == 1){
+                                ?>
+                                <td><a href="contato/editar?id=<?php echo $contato['id'];?>">Editar</a> | <a href="contato/apagar?id=<?php echo $contato['id'];?>">Excluir</a></td>
+
+                                <?php
+                            }else if($_SESSION['nivel'] == 2) {
+                                ?>
+                                <td><a href="contato/editar?id=<?php echo $contato['id']; ?>"><span
+                                            class="button green">Atender</span></a></td>
+                                <?php
+                            }
+                            ?>
+
+                        </tr>
+                    <?php endforeach;?>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        <?php echo $this->view->paginator;?>
+
+    </section>
+</section>
+

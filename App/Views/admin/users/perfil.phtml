@@ -14,30 +14,64 @@ foreach($users as $user);
 
         <div class="content">
             <form name="formulario" action="" method="post" enctype="multipart/form-data" _lpchecked="1">
+                <div class="field-wrap">
+                    <p>Nome:</p>
+                    <input type="text" name="nome" value="<?php echo $user['nome'];?>" placeholder="">
+                </div>
 
                 <div class="field-wrap">
-                    <input type="text" name="email" value="<?php echo $user['email'];?>" placeholder="">
+                    <p>E-mail:</p>
+                    <input type="text" disabled style="color:#e1e1e1;" name="email" value="<?php echo $user['email'];?>" placeholder="">
                 </div>
+
                 <div class="field-wrap">
+                    <p>Senha:</p>
                     <input type="password" name="senha" value="<?php echo $user['senha'];?>" placeholder="" >
                 </div>
-                	<div class="field-wrap">
 
+                    <?php
+
+                        if($user['tipo'] == 1 ){
+                            $tipo = "Administrador";
+                        }else if($user['tipo'] == 2){
+                            $tipo = "Atendente";
+                            echo '<input type="hidden" name="tipo" value="2" /> ';
+                        }
+
+                        if($_SESSION['nivel'] == 1){
+                      ?>
+                    <div class="field-wrap">
+                        <p>Nível</p>
+                        <select name="tipo">
+
+                            <option selected="selected" value="<?php echo $user['tipo'] ?>"><?php echo $tipo ?> &nbsp;&nbsp;</option>
+                            <option disabled>================</option>
+                            <option value="1">Administrador &nbsp;&nbsp;</option>
+                            <option value="2">Atendente &nbsp;&nbsp;</option>
+                        </select>
                     </div>
 
-                    <div class="field-wrap">
-                        <select name="tipo">
-                            <option selected="selected" value="1">Administrador &nbsp;&nbsp;</option>
-                            <option value="2">Cliente &nbsp;&nbsp;</option>
-                        </select>
-                        <br><br>
                         <div class="field-wrap">
+                            <?php
+
+                            if($user['status'] == 1){
+                                $status = "Ativo";
+                            }else if($user['status'] == 0){
+                                $status = "Inativo";
+                            }
+
+                            ?>
+                            <p>Status</p>
                             <select name="status">
-                                <option value="">Selecione o status &nbsp;&nbsp;</option>
-                                <option selected="selected" value="1">Ativo &nbsp;&nbsp;</option>
-                                <option value="0">Inativo &nbsp;&nbsp;</option>
+                            <option selected="selected" value="<?php echo $user['status'] ?>"><?php echo $status; ?></option>
+                            <option disabled>================</option>
+                            <option  value="1">Ativo</option>
+                            <option value="0">Inativo</option>
                             </select>
                         </div>
+                    <?php
+                }
+            ?>
                         <br>
 
                         <button type="submit" name="sendForm" class="green">Atualizar</button> <button type="reset" class="">Limpar</button>

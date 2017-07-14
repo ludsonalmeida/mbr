@@ -3,7 +3,6 @@
 namespace App\Controllers;
 
 use LA\Controllers\Action;
-use App\Helpers\Mailer;
 use LA\DI\Container;
 
 
